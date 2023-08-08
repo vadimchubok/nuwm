@@ -1,0 +1,1484 @@
+<?xml version="1.0"?>
+<?mso-application progid="Excel.Sheet"?>
+<Workbook xmlns="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:o="urn:schemas-microsoft-com:office:office"
+ xmlns:x="urn:schemas-microsoft-com:office:excel"
+ xmlns:ss="urn:schemas-microsoft-com:office:spreadsheet"
+ xmlns:html="http://www.w3.org/TR/REC-html40"
+ xmlns:u1="http://www.inproekt.kiev.ua/">
+ <DocumentProperties xmlns="urn:schemas-microsoft-com:office:office">
+  <Author>Інпроект - Випуск Кошторисів</Author>
+  <LastAuthor>Vadim Chubok</LastAuthor>
+  <Created>2023-06-07T21:51:58Z</Created>
+  <Company>Інпроект</Company>
+  <Version>16.00</Version>
+ </DocumentProperties>
+ <OfficeDocumentSettings xmlns="urn:schemas-microsoft-com:office:office">
+  <AllowPNG/>
+ </OfficeDocumentSettings>
+ <ExcelWorkbook xmlns="urn:schemas-microsoft-com:office:excel">
+  <WindowHeight>12225</WindowHeight>
+  <WindowWidth>28800</WindowWidth>
+  <WindowTopX>32767</WindowTopX>
+  <WindowTopY>32767</WindowTopY>
+  <ProtectStructure>False</ProtectStructure>
+  <ProtectWindows>False</ProtectWindows>
+ </ExcelWorkbook>
+ <Styles>
+  <Style ss:ID="Default" ss:Name="Normal">
+   <Alignment ss:Vertical="Bottom"/>
+   <Borders/>
+   <Font ss:FontName="Calibri" x:CharSet="204" x:Family="Swiss" ss:Size="11"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s62" ss:Name="IvkDocStyle 1">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s63" ss:Name="IvkDocStyle 10">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s64" ss:Name="IvkDocStyle 12">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s65" ss:Name="IvkDocStyle 13">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s66" ss:Name="IvkDocStyle 14">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s67" ss:Name="IvkDocStyle 15">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s68" ss:Name="IvkDocStyle 16">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s69" ss:Name="IvkDocStyle 19">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s70" ss:Name="IvkDocStyle 2">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s71" ss:Name="IvkDocStyle 21">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s72" ss:Name="IvkDocStyle 22">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s73" ss:Name="IvkDocStyle 23">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s74" ss:Name="IvkDocStyle 24">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s75" ss:Name="IvkDocStyle 25">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s76" ss:Name="IvkDocStyle 26">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s77" ss:Name="IvkDocStyle 27">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s78" ss:Name="IvkDocStyle 28">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s79" ss:Name="IvkDocStyle 29">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s80" ss:Name="IvkDocStyle 3">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s81" ss:Name="IvkDocStyle 30">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s82" ss:Name="IvkDocStyle 31">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s83" ss:Name="IvkDocStyle 32">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s84" ss:Name="IvkDocStyle 33">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s85" ss:Name="IvkDocStyle 34">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s86" ss:Name="IvkDocStyle 35">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s87" ss:Name="IvkDocStyle 36">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s88" ss:Name="IvkDocStyle 39">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s89" ss:Name="IvkDocStyle 4">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s90" ss:Name="IvkDocStyle 40">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s91" ss:Name="IvkDocStyle 41">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s92" ss:Name="IvkDocStyle 44">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s93" ss:Name="IvkDocStyle 45">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Bottom" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s94" ss:Name="IvkDocStyle 48">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Top" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s95" ss:Name="IvkDocStyle 49">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s96" ss:Name="IvkDocStyle 5">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s97" ss:Name="IvkDocStyle 50">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s98" ss:Name="IvkDocStyle 51">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s99" ss:Name="IvkDocStyle 54">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s100" ss:Name="IvkDocStyle 55">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s101" ss:Name="IvkDocStyle 57">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s102" ss:Name="IvkDocStyle 58">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s103" ss:Name="IvkDocStyle 59">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Dot" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s104" ss:Name="IvkDocStyle 6">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s105" ss:Name="IvkDocStyle 62">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Top" ss:LineStyle="Dot" ss:Weight="1" ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1" ss:Italic="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s106" ss:Name="IvkDocStyle 63">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s107" ss:Name="IvkDocStyle 64">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s108" ss:Name="IvkDocStyle 65">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s109" ss:Name="IvkDocStyle 68">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders>
+    <Border ss:Position="Bottom" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Left" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+    <Border ss:Position="Right" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Bold="1"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s110" ss:Name="IvkDocStyle 69">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders>
+    <Border ss:Position="Top" ss:LineStyle="Continuous" ss:Weight="1"
+     ss:Color="#000000"/>
+   </Borders>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s111" ss:Name="IvkDocStyle 70">
+   <Alignment ss:Horizontal="Right" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s112" ss:Name="IvkDocStyle 8">
+   <Alignment ss:Horizontal="Center" ss:Vertical="Center" ss:WrapText="1"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+  <Style ss:ID="s310" ss:Parent="s89">
+   <Alignment ss:Horizontal="Left" ss:Vertical="Center"/>
+   <Borders/>
+   <Font ss:FontName="Arial" x:CharSet="204" x:Family="Swiss" ss:Size="8"
+    ss:Color="#000000" ss:Underline="Single"/>
+   <Interior/>
+   <NumberFormat ss:Format="@"/>
+   <Protection/>
+  </Style>
+ </Styles>
+ <Worksheet ss:Name="1 ЛК2-1-1_ф1_И_2пара(Мінрегіонб">
+  <Names>
+   <NamedRange ss:Name="Print_Titles"
+    ss:RefersTo="='1 ЛК2-1-1_ф1_И_2пара(Мінрегіонб'!R18"/>
+  </Names>
+  <Table ss:ExpandedColumnCount="12" ss:ExpandedRowCount="72" x:FullColumns="1"
+   x:FullRows="1" ss:DefaultRowHeight="15">
+   <Column ss:AutoFitWidth="0" ss:Width="24.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="48.75"/>
+   <Column ss:AutoFitWidth="0" ss:Width="169.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="43.5"/>
+   <Column ss:AutoFitWidth="0" ss:Width="48.75" ss:Span="7"/>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:MergeAcross="10" ss:StyleID="s62"><Data ss:Type="String">Васильків</Data></Cell>
+    <Cell ss:StyleID="s80"><Data ss:Type="String">Форма №1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">[найменування об`єкта будівництва]</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:MergeAcross="11" ss:StyleID="s104"><Data ss:Type="String">Локальний кошторис на будівельні роботи № 2-1-1</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:MergeAcross="11" ss:StyleID="s112"><Data ss:Type="String">Васильків</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:MergeAcross="11" ss:StyleID="s63"><Data ss:Type="String">Васильків</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:MergeAcross="11" ss:StyleID="s112"><Data ss:Type="String">[найменування робiт та витрат, найменування будинку, будівлі, споруди, лінійного об`єкта інженерно-транспортної інфраструктури]</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s96"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Основа:</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Кошторисна вартість</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s65"><Data ss:Type="String"> тис. грн.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s89"><Data ss:Type="String">креслення (специфікації) № </Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Кошторисна трудомісткість</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s65"><Data ss:Type="String"> тис. люд.год</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Кошторисна заробітна плата</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s65"><Data ss:Type="String"> тис. грн.</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Середній розряд робіт</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s65"><Data ss:Type="String"> розряд</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s70"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">Показник одинчної вартості</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s66"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:MergeAcross="1" ss:StyleID="s96"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s67"><Data ss:Type="String">Складений в поточних цінах станом на </Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s64"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:MergeDown="3" ss:StyleID="s68"><Data ss:Type="String">№ п/п</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s68"><Data ss:Type="String">Обґрун-тування (шифр норми)</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s68"><Data ss:Type="String">Найменування робіт і витрат</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s68"><Data ss:Type="String">Одиниця виміру</Data></Cell>
+    <Cell ss:MergeDown="3" ss:StyleID="s68"><Data ss:Type="String">Кількість</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Вартість одиниці, грн.</Data></Cell>
+    <Cell ss:MergeAcross="2" ss:StyleID="s68"><Data ss:Type="String">Загальна вартість, грн.</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">Витрати труда робітників, люд.год,</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s68"><Data ss:Type="String">Всього</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s68"><Data ss:Type="String">експлуа- тації машин</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s68"><Data ss:Type="String">Всього</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s68"><Data ss:Type="String">заробітної плати</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s68"><Data ss:Type="String">експлуа- тації машин</Data></Cell>
+    <Cell ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">не зайнятих обслуговуванням машин</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:Index="11" ss:MergeAcross="1" ss:StyleID="s68"><Data ss:Type="String">тих, що обслуговують машини</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="40.6875">
+    <Cell ss:Index="6" ss:StyleID="s68"><Data ss:Type="String">заробітної плати</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">в тому числі заробітної плати</Data></Cell>
+    <Cell ss:Index="10" ss:StyleID="s68"><Data ss:Type="String">в тому числі заробітної плати</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">на одиницю</Data></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="String">всього</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">1</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">2</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">3</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">4</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">5</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">6</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">7</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">8</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">9</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">10</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">11</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+    <Cell ss:StyleID="s68"><Data ss:Type="Number">12</Data><NamedCell
+      ss:Name="Print_Titles"/></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="41.8125">
+    <Cell ss:MergeDown="2" ss:StyleID="s71"><Data ss:Type="Number">1</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s72"><Data ss:Type="String">Е1-24-5  тех.ч. п1.3 табл.10 п.1.3.21-23 п.1.3.26,27 1.3.30-32 к=1,06</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s73"><Data ss:Type="String">Зняття розслинного грунту бульдозерами потужністю 79 кВт [108 к.с.] з переміщенням грунту до 10 м, група грунтів 1 , при роботі на водогосподарському будівництві (Формула: 25 + 10)</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s74"><Data ss:Type="String">1000 м3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s74"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">4354.3</Data></Cell>
+    <Cell ss:StyleID="s75"><Data ss:Type="Number">4354.3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s71"><Data ss:Type="Number">152400.5</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s71"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="Number">152400.5</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s76"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">1042.04</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">36471.4</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">13.0825</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">457.88749999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.3125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="49.5">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">2</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е1-24-13  тех.ч. п1.3 табл.10 п.1.3.21-23 п.1.3.26,27 1.3.30-32 к=1,06, H1=3,0</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Додавати на кожні наступні 10 м переміщення грунту [понад 10 м] бульдозерами потужністю 79 кВт [108 к.с.], група грунтів 1 , при роботі на водогосподарському будівництві (Формула: 25+10)</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">1000 м3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">3767.52</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">3767.52</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">131863.20000000001</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">131863.20000000001</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">901.62</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">31556.7</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">11.3195</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">396.1825</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="36.5625">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="41.8125">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е1-12-8  тех.ч. п1.3 табл.10 п.1.3.21-23 п.1.3.26,27 1.3.30-32 к=1,06</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Розроблення грунту у відвал екскаваторами &quot;драглайн&quot; або &quot;зворотна лопата&quot; з ковшом місткістю 0,65 [0,5-1] м3, група грунтів 2 , при роботі на водогосподарському будівництві (Формула: 50x25x4/1000)</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">1000 м3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">16169.68</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">15425.7</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">80848.399999999994</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">3719.9</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">77128.5</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">15.1</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">75.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">743.98</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">3878.86</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">19394.3</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">52.515700000000002</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">262.57850000000002</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="31.3125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Наступні позиції сформовано в результаті роботи фрагмента</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Фрагмент Ф12 (1)</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.1875">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">4</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е7-42-3 </Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Установлення блоків стін підвалів масою до 1,5 т</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">100шт</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">0.6</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">35348.720000000001</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">22667.83</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">21209.23</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">4043.86</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">13600.7</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">118.47</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">71.081999999999994</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="6.5625">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">6739.76</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">8862.52</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">5317.51</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">126.2388</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">75.743300000000005</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="24">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">5</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">К581121-А002  #С1426-11738</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Блоки бетонні для стін підвалів марки ФБС 24.4.6-Т ГОСТ 13579-78  із бетону марки 150 Відпускна ціна: 1290,5.0,543</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">шт</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">60</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">894.73</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">53683.8</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.0625">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Кінець групи фрагментів</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Наступні позиції сформовано в результаті роботи фрагмента</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Фрагмент Ф6 (1)</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">6</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е7-45-2 </Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Укладання панелей перекриття з обпиранням по контуру площею до 15 м2 [для будівництва в районах із сейсмічністю до 6 балів]</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">100шт</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">0.35</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">50723.38</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">18757.78</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">17753.18</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">7899.8</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">6565.22</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">387.15</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">135.5025</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.6875">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">22570.85</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">7608.44</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">2662.95</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">118.7677</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">41.5687</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="29.25">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">7</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">К584211-3001  #С1414-7844</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Панелі перекриття залізобетонні багатопустотні марки ПК63.18-8ВР2Т серія 1.141-1 вип.66   Відпускна ціна: (612,32+((12-11).0,32+1,23).1).11,24</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">шт</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">35</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">7579.22</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">265272.7</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="12.9375">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="15.9375">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s86"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s87"><Data ss:Type="String">Кінець групи фрагментів</Data></Cell>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+    <Cell ss:StyleID="s85"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="25.5">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">8</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е1-23-1 </Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Розроблення грунту скреперами самохідними з ковшом місткістю 8 м3 з переміщенням грунту до 300 м, група грунтів 1</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">1000 м3</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">100</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">48133.22</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">47572.03</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">4813322</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">56119</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">4757203</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">11.39</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">1139</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="16.6875">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">561.19000000000005</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">7723.78</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">772378</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">99.344999999999999</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">9934.5</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="20.25">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">9</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">Е12-12-1 </Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">Улаштування покрівель двосхилих із металочерепиці &quot;Монтерей&quot; (Формула: (50x25x1,3)/100)</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">100м2</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">16.25</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">11092.66</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">315.94</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">180255.73</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">109629.49</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">5134.03</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">124.68</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2026.05</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="11.8125">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">6746.43</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">102.89</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">1671.96</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">1.4775</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="Number">24.009399999999999</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="13.6875">
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">10</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s82"><Data ss:Type="String">С114-41 </Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s83"><Data ss:Type="String">МеталЧерепиця 256 (Формула: 104x16,25)</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">10м2</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">1690</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="Number">2739.74</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="Number">4630160.5999999996</Data></Cell>
+    <Cell ss:MergeDown="2" ss:StyleID="s81"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:StyleID="s84"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="5.0625">
+    <Cell ss:Index="6" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:Index="10" ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s77"><Data ss:Type="String">-</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:Index="3" ss:StyleID="s79"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:MergeDown="1" ss:StyleID="s88"/>
+    <Cell ss:MergeDown="1" ss:StyleID="s90"/>
+    <Cell ss:MergeAcross="4" ss:MergeDown="1" ss:StyleID="s91"><Data
+      ss:Type="String">Разом прямі витрати по кошторису</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s92"><Data ss:Type="Number">10346769.34</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s92"><Data ss:Type="Number">181412.05</Data></Cell>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">5143895.1500000004</Data></Cell>
+    <Cell ss:MergeDown="1" ss:StyleID="s88"/>
+    <Cell ss:StyleID="s93"><Data ss:Type="Number">3447.1345000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:Index="10" ss:StyleID="s94"><Data ss:Type="Number">869452.82</Data></Cell>
+    <Cell ss:Index="12" ss:StyleID="s94"><Data ss:Type="Number">11192.4699</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s98"><Data ss:Type="String">   у тому числі:</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s100"><Data ss:Type="String">   вартість матеріалів, виробів і конструкцій</Data></Cell>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">5021462.1399999997</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s100"><Data ss:Type="String">  заробітна плата</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">1050864.8700000001</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s98"><Data ss:Type="String">Загальновиробничі витрати</Data></Cell>
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">452289</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s69"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s100"><Data ss:Type="String">   трудомісткість в загальновиробничих витратах</Data></Cell>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s99"/>
+    <Cell ss:StyleID="s101"><Data ss:Type="Number">1486.9082000000001</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s78"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s72"><Data ss:Type="String">   заробітна плата в загальновиробничих витратах</Data></Cell>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s71"><Data ss:Type="Number">140750.73000000001</Data></Cell>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+    <Cell ss:StyleID="s103"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s90"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s105"><Data ss:Type="String">Всього по кошторису </Data></Cell>
+    <Cell ss:StyleID="s92"><Data ss:Type="Number">10799058.34</Data></Cell>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+    <Cell ss:StyleID="s88"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s97"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s98"><Data ss:Type="String">   Кошторисна трудомісткість</Data></Cell>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s95"/>
+    <Cell ss:StyleID="s102"><Data ss:Type="Number">16126.5126</Data></Cell>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.5">
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s107"/>
+    <Cell ss:MergeAcross="4" ss:StyleID="s108"><Data ss:Type="String">   Кошторисна заробітна плата</Data></Cell>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s109"><Data ss:Type="Number">1191615.6000000001</Data></Cell>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s106"/>
+    <Cell ss:StyleID="s106"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s110"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Склав  </Data></Cell>
+    <Cell ss:StyleID="s310"><Data ss:Type="String">Чубок В.О.</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">[посада, пiдпис (iнiцiали, прiзвище)]</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="8.8125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s111"><Data ss:Type="String">Перевiрив  </Data></Cell>
+    <Cell ss:StyleID="s310"><Data ss:Type="String">Клімов С.В.</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+   <Row ss:AutoFitHeight="0" ss:Height="10.3125">
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s89"><Data ss:Type="String">[посада, пiдпис (iнiцiали, прiзвище)]</Data></Cell>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s96"/>
+    <Cell ss:StyleID="s70"/>
+   </Row>
+  </Table>
+  <WorksheetOptions xmlns="urn:schemas-microsoft-com:office:excel">
+   <PageSetup>
+    <Layout x:Orientation="Landscape"/>
+    <Header x:Margin="0.59055118110236204"
+     x:Data="&amp;L&amp;Л&amp;&quot;Arial&quot;&amp;7Комп`ютерна програма &quot;Інпроект - Випуск Кошторисів&quot; (1.914.0222)&amp;R&amp;П&amp;&quot;Arial&quot;&amp;7Документ: ЛК2-1-1_ф1_И_2пара(Мінрегіонбуд)&amp;C&amp;Ц&amp;8- &amp;С -&#13;&#10;"/>
+    <Footer x:Margin="0.59055118110236204"
+     x:Data="&amp;L&amp;Л&amp;&quot;Arial&quot;&amp;7Файл будівництва: C:\Edu\Gidra\IVK13free\Стройки\Инвесторские\И_2пара(Мінрегіонбуд).smt13&amp;R&amp;П&amp;&quot;Arial&quot;&amp;7&amp;C&amp;Ц&amp;8"/>
+    <PageMargins x:Bottom="0.78740157480314998" x:Left="0.78740157480314998"
+     x:Right="0.59055118110236204" x:Top="0.78740157480314998"/>
+   </PageSetup>
+   <Unsynced/>
+   <Print>
+    <ValidPrinterInfo/>
+    <PaperSizeIndex>9</PaperSizeIndex>
+    <VerticalResolution>0</VerticalResolution>
+   </Print>
+   <Selected/>
+   <TopRowVisible>45</TopRowVisible>
+   <Panes>
+    <Pane>
+     <Number>3</Number>
+     <ActiveRow>76</ActiveRow>
+     <ActiveCol>3</ActiveCol>
+    </Pane>
+   </Panes>
+   <ProtectObjects>False</ProtectObjects>
+   <ProtectScenarios>False</ProtectScenarios>
+  </WorksheetOptions>
+  <PageBreaks xmlns="urn:schemas-microsoft-com:office:excel">
+   <RowBreaks>
+    <RowBreak>
+     <Row>24</Row>
+    </RowBreak>
+    <RowBreak>
+     <Row>56</Row>
+    </RowBreak>
+   </RowBreaks>
+  </PageBreaks>
+ </Worksheet>
+</Workbook>
